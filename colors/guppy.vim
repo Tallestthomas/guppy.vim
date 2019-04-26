@@ -49,6 +49,7 @@ hi jsTaggedTemplate guifg=#7FB069
 " Reds
 hi jsClassDefinition guifg=#FF723D gui=italic
 hi jsxTagName guifg=#FF723D gui=italic
+hi jsxEndTag guifg=#FF723D gui=italic
 hi jsObjectProp guifg=#FF723D
 hi jsBoolean guifg=#FF723D
 hi Number guifg=#FF723D
