@@ -67,6 +67,7 @@ hi jsVariableDef guifg=#94E3E0 gui=bold
 hi jsTemplateExpression guifg=#94E3E0
 hi jsClassProperty guifg=#94E3E0
 hi jsonQuote guifg=#94E3E0
+hi jsxEndTag guifg=#94E3E0
 
 " Yellow
 hi Conditional guifg=#f1db13
