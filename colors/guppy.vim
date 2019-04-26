@@ -16,6 +16,7 @@ let g:colors_name = "tt"
 " green #7FB069
 
 hi Normal guibg=#080F0F guifg=#DDDDDD
+highlight PMenu guibg=#333333 
 
 hi Comment guifg=#999999 gui=italic
 hi Cursor guibg=Gray
