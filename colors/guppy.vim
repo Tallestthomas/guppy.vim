@@ -24,6 +24,7 @@ hi String guifg=#BEA57D gui=italic
 hi Keyword guifg=#7FB069
 hi link Operator Keyword
 hi link Type Keyword
+hi link ImportCostVirtualText Comment
 
 hi Statement guifg=#f1db13
 hi IncSearch guibg=#f1db13
