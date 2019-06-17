@@ -63,9 +63,11 @@ hi link vimVar Keyword
 " Reds
 hi Number guifg=#FF723D
 hi link Boolean Number
-hi jsxTag guifg=#FF723D gui=italic
-hi link jsClassDefinition jsxTag
-hi link jsxEndString jsxTag
+hi jsxTagName guifg=#FF723D gui=italic
+hi link jsxComponentName jsxTagName
+hi link jsxEndComponentName jsxTagName
+hi link jsClassDefinition jsxTagName
+hi link jsxEndString jsxTagName
 hi link jsObjectProp Number
 hi link jsBoolean Number
 hi link jsExportDefault Number
