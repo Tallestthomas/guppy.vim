@@ -56,6 +56,7 @@ hi jsModuleKeyword guifg=#94E3E0 gui=bold
 hi jsParens guifg=#ff961f
 hi jsReturn guifg=#EFF2C0
 hi jsTemplateBraces guifg=#BEA57D
+hi link jsxTagName String
 hi link jsArrowFunction jsFuncArgs
 hi link jsBoolean Number
 hi link jsBrackets jsParens 
@@ -80,8 +81,8 @@ hi link jsTernaryIfOperator jsReturn
 hi link jsVariableDef jsModuleKeyword
 hi link jsonKeyword Keyword
 hi link jsonQuote jsFuncCall
-
 hi link jsClassDefinition jsxTagName
+
 hi link jsxAttrib Keyword
 hi link jsxAttributeBraces Keyword
 hi link jsxEndString jsxTagName
@@ -89,8 +90,12 @@ hi link jsxEndTag jsFuncCall
 hi link jsxEqual jsReturn
 
 " Go
-hi link goConst Keyword 
-hi link goParen jsParens 
+"hi! link goDirective 
+"hi! link goConstants 
+"hi! link goDeclaration guifg=#DB302E
+hi! link goDeclType Keyword 
+hi! link goBuiltins Statement 
+
 
 " Plugin Specific
 hi link ImportCostVirtualText Comment
